@@ -2,10 +2,7 @@ import java.awt.*;
 import java.sql.SQLOutput;
 import java.text.DateFormat;
 import java.text.NumberFormat;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Date;
-import java.util.Scanner;
+import java.util.*;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
@@ -233,15 +230,92 @@ public class Main {
 //        } while (!input.equals("quit"));
 
         //FOR EACH LOOP
+//
+//        String[] fruitArr = {"Apple", "Mango", "Orange"};
+//
+////        for (int i=0; i < fruitArr.length; i++){
+////            System.out.println(fruitArr[i]);
+////        }
+//
+//        for (String fruit : fruitArr){  // FOR EACH LOOP SYNTAX
+//            System.out.println(fruit);
+//        }
+        //Wrapper Classes are useful ways to use primitive data types as reference data types.  They also
+        //contain useful methods that can be used with collections
+        //Reference types are slower.
 
-        String[] fruitArr = {"Apple", "Mango", "Orange"};
+        //primitive     //wrapper  (Each primitive data type has a coresponding wrapper class)
+        //---------  -----------
+        //boolean       Boolean
+        //char          Character
+        //int           Integer
+        //double        Double
 
-//        for (int i=0; i < fruitArr.length; i++){
-//            System.out.println(fruitArr[i]);
+        //autoboxing-> an automatic conversion from primitive to wrapper class
+        //unboxing -> the reverse of the above, wrapper -> primitive
+
+//        Boolean a = true;
+//        Character b = 'b';
+//        Integer c = 123;
+//        Double d = 3.14;
+//        String e = "Tony";
+
+        //Reference types have an useful advantage that they have methods!
+
+//        if (b=='b'){
+//            System.out.println("This is true");
 //        }
 
-        for (String fruit : fruitArr){  // FOR EACH LOOP SYNTAX
-            System.out.println(fruit);
+        //Disadvantage, accessing values inside a wrapper class is costlier, slower.  Primitive values are faster
+
+        //ARRAYLIST IN JAVA
+
+        //ArrayList = a resizable array.  Elements can be added and removed after compilation phase.  They only store
+        //reference data types (MUST USE WRAPPER CLASSES)
+
+//        ArrayList<String> food = new ArrayList();
+//
+//        food.add("Pizza"); //ADDS ITEM
+//        food.add("Hamburger");
+//        food.add("HotDog");
+//
+//        for (int i=0; i<food.size(); i++){
+//            System.out.println(food.get(i));
+//        }
+//
+//        food.set(0,"Jello"); //SET
+//        for (int i=0; i<food.size(); i++){
+//            System.out.println(food.get(i));
+//        }
+//
+//        food.remove(0); //REMOVES ITEM AT INDEX
+//        for (int i=0; i<food.size(); i++){
+//            System.out.println(food.get(i));
+//        }
+//
+//        food.clear(); //REMOVES ALL ITEMS
+//
+
+        //MATRIX 2-D ARRAYLISTS
+
+        ArrayList<String> bakeryList = new ArrayList<>();
+        Collections.addAll(bakeryList, "Pasta", "Garlic Bread", "Doughnuts");
+
+        ArrayList<String> produce = new ArrayList<>();
+        Collections.addAll(produce, "Broccoli", "Tomatoes", "Mushrooms");
+
+        ArrayList<String> candy = new ArrayList<>();
+        Collections.addAll(candy, "Gummy Bears", "Swedish fish");
+
+        ArrayList<ArrayList<String>> groceryLists = new ArrayList<>();
+        Collections.addAll(groceryLists, bakeryList, produce, candy);
+
+        System.out.println(groceryLists.getFirst().getLast());
+
+        for (ArrayList<String> singleList : groceryLists){
+            System.out.println(singleList);
         }
     }
+
+
 }
