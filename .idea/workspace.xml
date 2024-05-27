@@ -5,21 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9660ed46-f3ed-4f67-9e07-6da738de030f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bicycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Food.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Friend.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Garage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Hero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RegularHuman.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/package1/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/package1/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/package2/Asub.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/package2/C.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Boat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Hawk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Predator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Prey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Rabbit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dog.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SecondMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SecondMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,6 +25,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -87,7 +83,7 @@
       <updated>1715513725587</updated>
       <workItem from="1715513726563" duration="22539000" />
       <workItem from="1715824551267" duration="36611000" />
-      <workItem from="1716550261513" duration="22865000" />
+      <workItem from="1716550261513" duration="31766000" />
     </task>
     <servers />
   </component>
